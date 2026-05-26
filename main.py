@@ -268,10 +268,52 @@ def load_peminjaman():
     except FileNotFoundError:
         peminjaman = []
         
+#fitur peminjaman buku end
+
+# fitur pengembalian buku start
+def kembalikan_buku(root_buku):
+    nim = input("Masukkan NIM mahasiswa: ")
+    kode = input("Masukkan kode buku: ")
+    
+    ditemukan = False
+    for data in peminjaman:
+        if data['nim'] == nim and data['kode_buku'] == kode:
+           ditemukan = True
+           
+        #    cari buku di bst
+        buku = cari_buku(root_buku, kode)
         
+        # tambah stok buku
+        if buku:
+            buku.stok += 1
+            
+        tanggal_kembali = datetime.now()
         
+        batas_kembali = datetime.strptime(data["maks_kembali"], "%Y-%m-%d")
         
+        terlambat = (tanggal_kembali - batas_kembali).days
         
+        if terlambat < 0:
+            terlambat = 0
+            
+        denda = terlambat * 2000
+        
+        print("\n=====pengembalian buku=====")
+        print("nama buku :", data['nama_buku'])
+        print("terlambat :", terlambat, "hari")
+        print("denda :Rp", denda)
+        
+        # hapus data peminjaman
+        peminjaman.remove(data)
+        simpan_buku(root_buku)
+        simpan_peminjaman()
+        
+        print("Buku berhasil dikembalikan")
+        
+        break
+    if not ditemukan:
+        print("Data peminjaman tidak ditemukan")
+
 root_buku = load_buku()
 load_peminjaman()
 
@@ -301,4 +343,6 @@ if hasil:
 
 else:
     print("Data tidak ditemukan")
-pinjam_buku(root_buku, root_mahasiswa)
+# pinjam_buku(root_buku, root_mahasiswa)
+
+kembalikan_buku(root_buku)
