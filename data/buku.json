@@ -1,0 +1,302 @@
+[
+    {
+        "kode": "A01",
+        "nama": "Algoritma Dasar",
+        "penulis": "Budi",
+        "stok": 5
+    },
+    {
+        "kode": "A02",
+        "nama": "Struktur Data",
+        "penulis": "Andi",
+        "stok": 8
+    },
+    {
+        "kode": "A03",
+        "nama": "Basis Data",
+        "penulis": "Sinta",
+        "stok": 10
+    },
+    {
+        "kode": "A04",
+        "nama": "Pemrograman Python",
+        "penulis": "Rina",
+        "stok": 6
+    },
+    {
+        "kode": "A05",
+        "nama": "Jaringan Komputer",
+        "penulis": "Doni",
+        "stok": 12
+    },
+    {
+        "kode": "A06",
+        "nama": "Cyber Security",
+        "penulis": "Rahmat",
+        "stok": 7
+    },
+    {
+        "kode": "A07",
+        "nama": "Machine Learning",
+        "penulis": "Caca",
+        "stok": 9
+    },
+    {
+        "kode": "A08",
+        "nama": "Kecerdasan Buatan",
+        "penulis": "Suriana",
+        "stok": 11
+    },
+    {
+        "kode": "A09",
+        "nama": "Data Science",
+        "penulis": "Fatmawati",
+        "stok": 15
+    },
+    {
+        "kode": "A10",
+        "nama": "Internet of Things",
+        "penulis": "Hartono",
+        "stok": 4
+    },
+    {
+        "kode": "A11",
+        "nama": "Sistem Operasi",
+        "penulis": "Neymar",
+        "stok": 13
+    },
+    {
+        "kode": "A12",
+        "nama": "Cloud Computing",
+        "penulis": "Ronaldo",
+        "stok": 5
+    },
+    {
+        "kode": "A13",
+        "nama": "UI UX Design",
+        "penulis": "Messi",
+        "stok": 9
+    },
+    {
+        "kode": "A14",
+        "nama": "Pemrograman Web",
+        "penulis": "Joko",
+        "stok": 8
+    },
+    {
+        "kode": "A15",
+        "nama": "Pemrograman Java",
+        "penulis": "Lina",
+        "stok": 14
+    },
+    {
+        "kode": "B01",
+        "nama": "Matematika Diskrit",
+        "penulis": "Bambang",
+        "stok": 5
+    },
+    {
+        "kode": "B02",
+        "nama": "Hacking Dasar",
+        "penulis": "Rasidi",
+        "stok": 10
+    },
+    {
+        "kode": "B03",
+        "nama": "Keamanan Jaringan",
+        "penulis": "Ridwan",
+        "stok": 7
+    },
+    {
+        "kode": "B04",
+        "nama": "Robotika",
+        "penulis": "Fajar",
+        "stok": 11
+    },
+    {
+        "kode": "B05",
+        "nama": "Arduino Dasar",
+        "penulis": "Yoga",
+        "stok": 8
+    },
+    {
+        "kode": "B06",
+        "nama": "Mikrokontroler",
+        "penulis": "Aldi",
+        "stok": 9
+    },
+    {
+        "kode": "B07",
+        "nama": "Analisis Data",
+        "penulis": "Nisa",
+        "stok": 13
+    },
+    {
+        "kode": "B08",
+        "nama": "AI Dasar",
+        "penulis": "Caca",
+        "stok": 2
+    },
+    {
+        "kode": "B09",
+        "nama": "Flutter Mobile",
+        "penulis": "Riko",
+        "stok": 6
+    },
+    {
+        "kode": "B10",
+        "nama": "React JS",
+        "penulis": "Tono",
+        "stok": 15
+    },
+    {
+        "kode": "B11",
+        "nama": "Node JS",
+        "penulis": "Dewi",
+        "stok": 7
+    },
+    {
+        "kode": "B12",
+        "nama": "Laravel",
+        "penulis": "Indah",
+        "stok": 9
+    },
+    {
+        "kode": "B13",
+        "nama": "Vue JS",
+        "penulis": "Ilham",
+        "stok": 5
+    },
+    {
+        "kode": "B14",
+        "nama": "Big Data",
+        "penulis": "Yusuf",
+        "stok": 12
+    },
+    {
+        "kode": "B15",
+        "nama": "Blockchain",
+        "penulis": "Rafi",
+        "stok": 4
+    },
+    {
+        "kode": "C01",
+        "nama": "Linux Server",
+        "penulis": "Agus",
+        "stok": 9
+    },
+    {
+        "kode": "C02",
+        "nama": "Hacking",
+        "penulis": "Rasidi",
+        "stok": 12
+    },
+    {
+        "kode": "C03",
+        "nama": "IoT",
+        "penulis": "Messi",
+        "stok": 20
+    },
+    {
+        "kode": "C04",
+        "nama": "Sistem Operasi",
+        "penulis": "Neymar",
+        "stok": 12
+    },
+    {
+        "kode": "C05",
+        "nama": "DevOps",
+        "penulis": "Bagas",
+        "stok": 8
+    },
+    {
+        "kode": "C06",
+        "nama": "Jaringan Komputer",
+        "penulis": "Ronaldo",
+        "stok": 12
+    },
+    {
+        "kode": "C07",
+        "nama": "Ethical Hacking",
+        "penulis": "Daffa",
+        "stok": 5
+    },
+    {
+        "kode": "C08",
+        "nama": "Forensik Digital",
+        "penulis": "Wawan",
+        "stok": 6
+    },
+    {
+        "kode": "C09",
+        "nama": "Kriptografi",
+        "penulis": "Anita",
+        "stok": 10
+    },
+    {
+        "kode": "C10",
+        "nama": "Pemrograman C++",
+        "penulis": "Rendi",
+        "stok": 11
+    },
+    {
+        "kode": "C11",
+        "nama": "Pemrograman Kotlin",
+        "penulis": "Mira",
+        "stok": 7
+    },
+    {
+        "kode": "C12",
+        "nama": "Android Studio",
+        "penulis": "Tari",
+        "stok": 9
+    },
+    {
+        "kode": "C13",
+        "nama": "Data Mining",
+        "penulis": "Farhan",
+        "stok": 14
+    },
+    {
+        "kode": "C14",
+        "nama": "Deep Learning",
+        "penulis": "Reza",
+        "stok": 5
+    },
+    {
+        "kode": "C15",
+        "nama": "Computer Vision",
+        "penulis": "Nabila",
+        "stok": 8
+    },
+    {
+        "kode": "D01",
+        "nama": "Manajemen Proyek",
+        "penulis": "Lukman",
+        "stok": 6
+    },
+    {
+        "kode": "D02",
+        "nama": "Teknik Informatika",
+        "penulis": "Sari",
+        "stok": 13
+    },
+    {
+        "kode": "D03",
+        "nama": "Sistem Informasi",
+        "penulis": "Bahar",
+        "stok": 10
+    },
+    {
+        "kode": "D04",
+        "nama": "Komputer Grafik",
+        "penulis": "Aulia",
+        "stok": 7
+    },
+    {
+        "kode": "D05",
+        "nama": "Game Development",
+        "penulis": "Kevin",
+        "stok": 9
+    }
+]

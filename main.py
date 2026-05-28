@@ -1,7 +1,14 @@
+import os
+import sys
 import json
 from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import messagebox
+
+BASE_DIR = os.path.dirname(
+    sys.executable if getattr(sys, 'frozen', False)
+    else __file__
+)
 
 def bst_ke_listBuku(root, data):
     
@@ -21,14 +28,14 @@ def simpan_buku(root):
     data = []
     bst_ke_listBuku(root, data)
     
-    with open("buku.json", 'w') as file:
+    with open(os.path.join(BASE_DIR, "data", "buku.json"), "w") as file:
         json.dump(data, file, indent = 4)
         
 def load_buku():
     root = None
     
     try:
-        with open("buku.json", 'r')as file:
+        with open(os.path.join(BASE_DIR, "data", "buku.json"), 'r') as file:
             data = json.load(file)
             
             for item in data:
@@ -59,7 +66,7 @@ def simpan_mahasiswa(root):
     
     bst_ke_listMahasiswa(root, data)
     
-    with open("mahasiswa.json", "w") as file:
+    with open(os.path.join(BASE_DIR, "data", "mahasiswa.json"), "w") as file:
         json.dump(data, file, indent = 4)
     
     
@@ -67,7 +74,7 @@ def load_mahasiswa():
     root = None
 
     try:
-        with open("mahasiswa.json", "r") as file:
+        with open(os.path.join(BASE_DIR, "data", "mahasiswa.json") , "r") as file:
             data = json.load(file)
 
             for item in data:
@@ -236,15 +243,21 @@ def tampil_peminjaman():
 
 
 def simpan_peminjaman():
-    with open("peminjaman.json", "w") as file:
+    with open(os.path.join(BASE_DIR, "data", "peminjaman.json"), "w") as file:
         json.dump(peminjaman, file, indent = 4)
         
 def load_peminjaman():
     global peminjaman
     
     try:
-        with open("peminjaman.json", "r") as file:
-            peminjaman = json.load(file)
+        with open(os.path.join(BASE_DIR, "data", "peminjaman.json"), "r") as file:
+            data = json.load(file)
+            if isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
+                peminjaman = data[0]
+            elif isinstance(data, list):
+                peminjaman = data
+            else:
+                peminjaman = []
     except FileNotFoundError:
         peminjaman = []
         

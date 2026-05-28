@@ -1,0 +1,203 @@
+[
+  {
+    "nim": "251011004",
+    "nama": "Dewi",
+    "kode_buku": "B12",
+    "nama_buku": "Laravel",
+    "tanggal_pinjam": "2026-05-28",
+    "maks_kembali": "2026-06-04"
+  },
+  {
+    "nim": "251011018",
+    "nama": "Rasidi",
+    "kode_buku": "C02",
+    "nama_buku": "Hacking",
+    "tanggal_pinjam": "2026-05-20",
+    "maks_kembali": "2026-05-27"
+  },
+  {
+    "nim": "251011002",
+    "nama": "Budi",
+    "kode_buku": "A03",
+    "nama_buku": "Basis Data",
+    "tanggal_pinjam": "2026-05-12",
+    "maks_kembali": "2026-05-19"
+  },
+  {
+    "nim": "251011010",
+    "nama": "Joko",
+    "kode_buku": "B10",
+    "nama_buku": "React JS",
+    "tanggal_pinjam": "2026-05-15",
+    "maks_kembali": "2026-05-22"
+  },
+  {
+    "nim": "251011027",
+    "nama": "Aulia",
+    "kode_buku": "A07",
+    "nama_buku": "Machine Learning",
+    "tanggal_pinjam": "2026-05-10",
+    "maks_kembali": "2026-05-17"
+  },
+  {
+    "nim": "251011033",
+    "nama": "Galih",
+    "kode_buku": "C06",
+    "nama_buku": "Jaringan Komputer",
+    "tanggal_pinjam": "2026-05-08",
+    "maks_kembali": "2026-05-15"
+  },
+  {
+    "nim": "251011045",
+    "nama": "Salsa",
+    "kode_buku": "A11",
+    "nama_buku": "Sistem Operasi",
+    "tanggal_pinjam": "2026-05-05",
+    "maks_kembali": "2026-05-12"
+  },
+  {
+    "nim": "251011021",
+    "nama": "Umar",
+    "kode_buku": "B05",
+    "nama_buku": "Arduino Dasar",
+    "tanggal_pinjam": "2026-05-01",
+    "maks_kembali": "2026-05-08"
+  },
+  {
+    "nim": "251011030",
+    "nama": "Daffa",
+    "kode_buku": "C07",
+    "nama_buku": "Ethical Hacking",
+    "tanggal_pinjam": "2026-04-29",
+    "maks_kembali": "2026-05-06"
+  },
+  {
+    "nim": "251011014",
+    "nama": "Nanda",
+    "kode_buku": "A04",
+    "nama_buku": "Pemrograman Python",
+    "tanggal_pinjam": "2026-04-25",
+    "maks_kembali": "2026-05-02"
+  },
+  {
+    "nim": "251011038",
+    "nama": "Lukman",
+    "kode_buku": "D01",
+    "nama_buku": "Manajemen Proyek",
+    "tanggal_pinjam": "2026-04-22",
+    "maks_kembali": "2026-04-29"
+  },
+  {
+    "nim": "251011041",
+    "nama": "Olivia",
+    "kode_buku": "C14",
+    "nama_buku": "Deep Learning",
+    "tanggal_pinjam": "2026-04-18",
+    "maks_kembali": "2026-04-25"
+  },
+  {
+    "nim": "251011007",
+    "nama": "Gilang",
+    "kode_buku": "A10",
+    "nama_buku": "Internet of Things",
+    "tanggal_pinjam": "2026-04-15",
+    "maks_kembali": "2026-04-22"
+  },
+  {
+    "nim": "251011025",
+    "nama": "Yuni",
+    "kode_buku": "B14",
+    "nama_buku": "Big Data",
+    "tanggal_pinjam": "2026-04-10",
+    "maks_kembali": "2026-04-17"
+  },
+  {
+    "nim": "251011048",
+    "nama": "Vero",
+    "kode_buku": "C12",
+    "nama_buku": "Android Studio",
+    "tanggal_pinjam": "2026-04-05",
+    "maks_kembali": "2026-04-12"
+  },
+
+  {
+    "nim": "251011052",
+    "nama": "Bella",
+    "kode_buku": "E03",
+    "nama_buku": "Cisco Networking",
+    "tanggal_pinjam": "2026-06-01",
+    "maks_kembali": "2026-06-08"
+  },
+  {
+    "nim": "251011058",
+    "nama": "Hadi",
+    "kode_buku": "F06",
+    "nama_buku": "Natural Language Processing",
+    "tanggal_pinjam": "2026-05-30",
+    "maks_kembali": "2026-06-06"
+  },
+  {
+    "nim": "251011063",
+    "nama": "Maya",
+    "kode_buku": "G10",
+    "nama_buku": "TensorFlow Dasar",
+    "tanggal_pinjam": "2026-05-29",
+    "maks_kembali": "2026-06-05"
+  },
+  {
+    "nim": "251011070",
+    "nama": "Tina",
+    "kode_buku": "H02",
+    "nama_buku": "Cryptography",
+    "tanggal_pinjam": "2026-05-27",
+    "maks_kembali": "2026-06-03"
+  },
+  {
+    "nim": "251011075",
+    "nama": "Yanda",
+    "kode_buku": "F14",
+    "nama_buku": "Augmented Reality",
+    "tanggal_pinjam": "2026-05-25",
+    "maks_kembali": "2026-06-01"
+  },
+  {
+    "nim": "251011081",
+    "nama": "Erwin",
+    "kode_buku": "E11",
+    "nama_buku": "Keamanan Web",
+    "tanggal_pinjam": "2026-05-22",
+    "maks_kembali": "2026-05-29"
+  },
+  {
+    "nim": "251011087",
+    "nama": "Kiki",
+    "kode_buku": "G06",
+    "nama_buku": "Teknologi Blockchain",
+    "tanggal_pinjam": "2026-05-20",
+    "maks_kembali": "2026-05-27"
+  },
+  {
+    "nim": "251011092",
+    "nama": "Putri",
+    "kode_buku": "F01",
+    "nama_buku": "Computer Architecture",
+    "tanggal_pinjam": "2026-05-18",
+    "maks_kembali": "2026-05-25"
+  },
+  {
+    "nim": "251011097",
+    "nama": "Umar",
+    "kode_buku": "H05",
+    "nama_buku": "Pemrograman Dart",
+    "tanggal_pinjam": "2026-05-15",
+    "maks_kembali": "2026-05-22"
+  },
+  {
+    "nim": "251011100",
+    "nama": "Yoga",
+    "kode_buku": "G09",
+    "nama_buku": "Advanced Python",
+    "tanggal_pinjam": "2026-05-12",
+    "maks_kembali": "2026-05-19"
+  }
+]
